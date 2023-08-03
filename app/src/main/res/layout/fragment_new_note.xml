@@ -19,10 +19,9 @@
         app:cardCornerRadius="5dp"
         app:cardElevation="8dp"
         app:layout_constraintBottom_toTopOf="parent"
-        app:layout_constrintEnd_toEndOf="parent"
-        app:layout_constrintStart_toStartOf="parent"
-        app:layout_constrintTop_toTopOf="parent"
-        >
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -39,9 +38,9 @@
                 android:hint="Type your title"
                 android:inputType="text"
                 android:textColor="@color/black"
-                android:textColorHint="@color/hintColor"
+                android:textColorHint="@color/black"
                 android:textSize="20sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/etNoteBody"
