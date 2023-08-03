@@ -7,17 +7,17 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.pngzfoo.notetakingapp.homeFragment"
+        android:name="com.pngzfoo.notetakingapp.fragments.homeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/newNoteFragment"
-        android:name="com.pngzfoo.notetakingapp.newNoteFragment"
+        android:name="com.pngzfoo.notetakingapp.fragments.newNoteFragment"
         android:label="fragment_new_note"
         tools:layout="@layout/fragment_new_note" />
     <fragment
         android:id="@+id/updateNoteFragment"
-        android:name="com.pngzfoo.notetakingapp.updateNoteFragment"
+        android:name="com.pngzfoo.notetakingapp.fragments.updateNoteFragment"
         android:label="fragment_update_note"
         tools:layout="@layout/fragment_update_note" />
 </navigation>
