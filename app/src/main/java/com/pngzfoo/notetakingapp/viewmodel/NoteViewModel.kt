@@ -3,7 +3,6 @@ package com.pngzfoo.notetakingapp.viewmodel
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
-import androidx.room.Query
 import com.pngzfoo.notetakingapp.model.Note
 import com.pngzfoo.notetakingapp.repository.NoteRepository
 import kotlinx.coroutines.launch
