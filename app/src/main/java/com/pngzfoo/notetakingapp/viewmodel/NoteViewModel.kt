@@ -12,10 +12,10 @@ class NoteViewModel(
     private val noteRepository: NoteRepository):AndroidViewModel(app)
 {
 
-    fun addNote(note: Note) {viewModelScope.launch {
+    fun addNote(note: Note) = viewModelScope.launch {
         noteRepository.insertNote(note)
         }
-    }
+
 
     fun deleteNote(note: Note) {viewModelScope.launch {
         noteRepository.deleteNote(note)
