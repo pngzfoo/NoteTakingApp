@@ -22,7 +22,7 @@ class homeFragment : Fragment(R.layout.fragment_home) , SearchView.OnQueryTextLi
     private lateinit var noteAdapter : NoteAdapter
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        //setHasOptionsMenu(true)
+        setHasOptionsMenu(true)
     }
 
     override fun onCreateView(
@@ -61,8 +61,8 @@ class homeFragment : Fragment(R.layout.fragment_home) , SearchView.OnQueryTextLi
 
         activity?.let{
             notesViewModel.getAllNote().observe(
-                viewLifecycleOwner,{
-                    note -> noteAdapter.differ.submitList(note)
+                viewLifecycleOwner,{ note ->
+                    noteAdapter.differ.submitList(note)
                     updateUI(note)
                 }
             )
