@@ -2,7 +2,7 @@ package com.pngzfoo.notetakingapp.fragments
 
 import android.os.Bundle
 import android.view.*
-import android.widget.SearchView
+import androidx.appcompat.widget.SearchView
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
